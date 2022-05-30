@@ -1,0 +1,12 @@
+#! /bin/bash
+
+if [ ! -z $1 ]
+then 
+	iplocal="$(ip -4 addr | grep -oP '(?<=inet\s)\d+(\.\d+){3}' | grep -wv 127.0.0.1)"
+	path=$1 
+	python3 -m http.server --bind $iplocal -d $path 
+else
+	echo "Please specify a path"
+fi
+
+

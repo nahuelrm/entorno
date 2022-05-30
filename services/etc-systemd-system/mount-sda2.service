@@ -1,0 +1,13 @@
+[Unit]
+Description= Mount /dev/sda2 if exist
+
+[Service]
+ExecStart=/usr/local/sbin/mount-sda2.sh
+
+[Install]
+WantedBy=multi-user.target
+
+
+#/etc/systemd/system/my-startup.service                                                
+#chmod +x                                                                              
+#systemctl enable ...

@@ -1,0 +1,12 @@
+[Unit]
+Description= Obs Cam
+
+[Service]
+ExecStart=/usr/local/sbin/obs-cam.sh
+
+[Install]
+WantedBy=multi-user.target
+
+#/etc/systemd/system/my-startup.service
+#chmod +x
+#systemctl enable ...

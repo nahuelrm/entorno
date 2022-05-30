@@ -1,0 +1,13 @@
+[Unit]
+Description= If its my pc do some stuff
+
+[Service]
+ExecStart=/usr/local/sbin/set-up.sh
+
+[Install]
+WantedBy=multi-user.target
+
+
+#/etc/systemd/system/my-startup.service                                                
+#chmod +x                                                                              
+#systemctl enable ...
