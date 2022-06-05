@@ -85,7 +85,7 @@ read answer
 if [ $answer == y ]
 then 
 	user="$(whoami)"
-	git clone https://github.com/nxhuigod/entorno ~/Desktop/$user/repos/entorno
+	git clone https://github.com/nahuelrm/entorno ~/Desktop/$user/repos/entorno
 	cp -r ~/Desktop/$user/repos/entorno/dotfiles/* ~/.config
 	cp ~/Desktop/$user/repos/entorno/dotfiles/.zshrc ~/.zshrc
 	cp -r ~/Desktop/$user/repos/entorno/wallpapers ~/Desktop/
