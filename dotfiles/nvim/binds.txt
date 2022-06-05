@@ -1,0 +1,19 @@
+# Most useful binds
+
+t: open in new tab
+T: open in new tab silently
+
+shift + right: move next window
+shift + left: move previous window
+
+ctrl + ww move through windows
+
+s: open in v split
+i: open in split
+
+u: move tree root up a dir
+U: move tree root up a dir but leave old root open
+
+q: close nerd tree window
+
+
